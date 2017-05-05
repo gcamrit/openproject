@@ -38,7 +38,7 @@ gem 'activerecord-session_store', '~> 1.0.0'
 gem 'responders', '~> 2.3'
 
 gem 'coderay', '~> 1.1.0'
-gem 'rubytree', '~> 0.9.7'
+gem 'rubytree', git: 'https://github.com/dr0verride/RubyTree.git', ref: '06f53ee'
 gem 'rdoc', '>= 2.4.2'
 
 gem 'globalize', git: 'https://github.com/globalize/globalize', ref: '38443bcd', require: false
@@ -106,7 +106,7 @@ gem 'rack-attack', '~> 5.0.1'
 # Patch Rails HTML whitelisting for Angular curly braces
 gem 'rails-angular-xss', git: 'https://github.com/opf/rails-angular-xss', ref: 'a45267d5'
 
-gem "syck", '~> 1.0.5', require: false
+gem "syck", '~> 1.3.0', require: false
 gem 'gon', '~> 4.0'
 
 # catch exceptions and send them to any airbrake compatible backend

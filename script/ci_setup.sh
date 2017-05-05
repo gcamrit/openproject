@@ -69,8 +69,9 @@ else
   run "touch app/assets/javascripts/bundles/openproject-core-app.js"
   run "touch app/assets/javascripts/bundles/openproject-vendors.js"
 
-  run "mkdir -p app/assets/stylesheets/bundles"
-  run "touch app/assets/javascripts/bundles/openproject-core-app.css"
+  run "mkdir -p app/assets/stylesheets/bundles/helpers"
+  run "touch app/assets/stylesheets/bundles/openproject-core-app.css"
+  run "touch app/assets/stylesheets/bundles/helpers/functions.css"
 fi
 
 if [ $1 = 'npm' ]; then

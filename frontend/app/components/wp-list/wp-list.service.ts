@@ -50,7 +50,7 @@ import {WorkPackageTablePaginationService} from '../wp-fast-table/state/wp-table
 import {WorkPackagesListInvalidQueryService} from './wp-list-invalid-query.service';
 import {WorkPackageTableTimelineService} from './../wp-fast-table/state/wp-table-timeline.service';
 import {WorkPackageTableHierarchiesService} from './../wp-fast-table/state/wp-table-hierarchy.service';
-import {SchemaCacheService} from "../schemas/schema-cache.service";
+import {SchemaCacheService} from '../schemas/schema-cache.service';
 import {Observable} from 'rxjs';
 
 export class WorkPackagesListService {
